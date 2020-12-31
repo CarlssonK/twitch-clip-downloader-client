@@ -3,6 +3,7 @@ const app = express();
 const { exec } = require('child_process');
 const server = require("http").createServer(app);
 const WebSocket = require("ws")
+const PORT = process.env.PORT || 3000;
 
 //to get directory path
 const path = require('path');
@@ -74,6 +75,6 @@ function setPath() {
 
 
 
-server.listen(3000, () => {
+server.listen(PORT, () => {
   console.log("LISTENING ON PORT 3000!");
 });
