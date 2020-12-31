@@ -13,6 +13,7 @@
     "axios": "^0.21.1",
     "bufferutil": "^4.0.2",
     "express": "^4.17.1",
+    "http": "0.0.1-security",
     "utf-8-validate": "^5.0.3",
     "ws": "^7.4.2"
   }
